@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Emergency Response</string>
+    <string name="app_tagline">Report. Respond. Save Lives.</string>
+    <string name="platform_subtitle">AI-Powered Disaster Platform</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Immediate Emergency Response At Your Fingertips</string>
+    <string name="onboarding_desc">Empowering citizens to report disasters, pinpoint critical locations, and monitor responder progress in real-time.</string>
+    <string name="feature_1_title">Multi-Disaster Reporting</string>
+    <string name="feature_1_desc">Report floods, fires, accidents, landslides and medical emergencies instantly.</string>
+    <string name="feature_2_title">GPS &amp; Map Coordinates</string>
+    <string name="feature_2_desc">Pinpoint precise incident spots prepared for Google Maps navigation.</string>
+    <string name="feature_3_title">Real-Time Progress Tracking</string>
+    <string name="feature_3_desc">Track verification, responder unit dispatch, and live status milestones.</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_login_account">Sign In to Account</string>
+
+    <!-- Auth -->
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Welcome back. Enter your credentials to access the emergency network.</string>
+    <string name="hint_email_or_phone">Email or Mobile Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="hint_email">Email Address</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register as Citizen Responder</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account_prompt">Don\'t have an account? Register</string>
+    <string name="have_account_prompt">Already have an account? Sign In</string>
+    <string name="register_title">Citizen Registration</string>
+    <string name="register_subtitle">Register to submit verified emergency reports and receive crisis alerts.</string>
+    <string name="terms_declaration">I confirm that all emergency incident submissions are genuine and intended for life safety and disaster response.</string>
+
+    <!-- Home Dashboard -->
+    <string name="citizen_role">Verified Citizen Responder</string>
+    <string name="current_location_label">Current Location</string>
+    <string name="default_location">100 Feet Rd, Indiranagar, Bengaluru</string>
+    <string name="default_coordinates">12.9716° N, 77.5946° E</string>
+    <string name="sos_title">EMERGENCY SOS</string>
+    <string name="sos_subtitle">Tap to broadcast instant distress signal</string>
+    <string name="btn_report_emergency">Report an Emergency</string>
+    <string name="section_categories">Emergency Categories</string>
+    <string name="section_categories_hint">Select a category to report incident</string>
+    <string name="section_weather">Weather Advisory</string>
+    <string name="section_recent_reports">Recent Emergency Reports</string>
+    <string name="section_status_overview">Emergency Status Overview</string>
+    <string name="weather_status">Heavy Rainfall Warning</string>
+    <string name="weather_temp">26°C</string>
+    <string name="weather_details">Rain: 82% • Wind: 38 km/h • High Humidity</string>
+    <string name="weather_advisory">Advisory: Potential urban waterlogging in low-lying zones. Avoid underpasses.</string>
+
+    <!-- Categories -->
+    <string name="cat_flood_name">Flood</string>
+    <string name="cat_cyclone_name">Cyclone</string>
+    <string name="cat_heavy_rainfall_name">Heavy Rainfall</string>
+    <string name="cat_landslide_name">Landslide</string>
+    <string name="cat_earthquake_name">Earthquake</string>
+    <string name="cat_road_accident_name">Road Accidents</string>
+    <string name="cat_fire_accident_name">Fire Accidents</string>
+    <string name="cat_medical_name">Medical Emergencies</string>
+    <string name="cat_other_name">Other Emergencies</string>
+
+    <!-- Report Screen -->
+    <string name="report_screen_title">Report Emergency Incident</string>
+    <string name="label_select_category">Incident Category *</string>
+    <string name="label_incident_title">Incident Title *</string>
+    <string name="hint_incident_title">e.g. Flash Flood on 80 Feet Road</string>
+    <string name="label_incident_desc">Detailed Description *</string>
+    <string name="hint_incident_desc">Describe the emergency, trapped persons, hazard conditions, and immediate help needed...</string>
+    <string name="label_incident_location">Incident Location *</string>
+    <string name="hint_incident_location">Street address or landmark</string>
+    <string name="btn_use_current_location">Use Current Location</string>
+    <string name="btn_pick_on_map">Pick on Map</string>
+    <string name="label_photo_upload">Incident Evidence Photo</string>
+    <string name="photo_attached_sample">incident_evidence_01.jpg (2.1 MB)</string>
+    <string name="btn_attach_photo">Attach / Change Photo</string>
+    <string name="label_incident_datetime">Incident Date &amp; Time</string>
+    <string name="btn_submit_report">Submit Emergency Report</string>
+
+    <!-- Location Screen -->
+    <string name="location_screen_title">Emergency Location</string>
+    <string name="map_api_notice">Google Maps API Ready • Coordinate Pinpoint Mode</string>
+    <string name="label_selected_location">Selected Incident Spot</string>
+    <string name="label_latitude">Latitude</string>
+    <string name="label_longitude">Longitude</string>
+    <string name="btn_confirm_location">Confirm &amp; Use Location</string>
+
+    <!-- My Reports -->
+    <string name="my_reports_title">My Emergency Reports</string>
+    <string name="filter_all">All Reports</string>
+    <string name="filter_active">Active (2)</string>
+    <string name="filter_verified">Verified (1)</string>
+    <string name="filter_resolved">Resolved (1)</string>
+
+    <!-- Details Screen -->
+    <string name="report_details_title">Incident Details</string>
+    <string name="label_progress_tracker">Emergency Response Tracker</string>
+    <string name="label_responder_info">Assigned Responder Information</string>
+    <string name="sample_responder_unit">Disaster Quick Response Team - Unit #7</string>
+    <string name="sample_officer_name">Officer R. Deshmukh (Command Code: BLR-402)</string>
+    <string name="sample_eta">Estimated Arrival: 6–8 Minutes</string>
+    <string name="btn_call_responder">Call Responder Unit</string>
+    <string name="btn_share_incident">Share Incident</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Citizen Profile</string>
+    <string name="user_default_name">Sahil Sharma</string>
+    <string name="user_default_email">sahil.sharma@example.com</string>
+    <string name="user_default_phone">+91 98765 43210</string>
+    <string name="user_emergency_contact">+91 98765 11223 (Family Emergency)</string>
+    <string name="user_blood_group">O+ Positive</string>
+    <string name="btn_edit_profile">Edit Profile Details</string>
+    <string name="section_settings">Platform Preferences</string>
+    <string name="setting_notifications">Critical Disaster Alerts</string>
+    <string name="setting_siren">High-Volume Emergency Siren</string>
+    <string name="setting_gps">High-Precision GPS Location</string>
+    <string name="btn_logout">Logout</string>
+
+    <!-- Status Labels -->
+    <string name="status_reported">Reported</string>
+    <string name="status_verified">Verified</string>
+    <string name="status_assigned">Assigned</string>
+    <string name="status_responding">Responding</string>
+    <string name="status_resolved">Resolved</string>
+
+    <!-- Three Roles -->
+    <string name="role_citizen_title">Citizen</string>
+    <string name="role_citizen_desc">Report emergencies &amp; track incidents</string>
+    <string name="role_authority_title">Authority</string>
+    <string name="role_authority_desc">Control center triage &amp; dispatch</string>
+    <string name="role_officer_title">Officer</string>
+    <string name="role_officer_desc">Field response &amp; rescue execution</string>
+    <string name="remember_me">Remember credentials</string>
+    <string name="select_role_prompt">Select Login Role</string>
+
+    <!-- Additional Status -->
+    <string name="status_rejected">Rejected</string>
+
+    <!-- Authority & Officer Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_emergencies">Emergencies</string>
+    <string name="nav_officers">Officers</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_my_tasks">My Tasks</string>
+
+    <!-- Authority Actions -->
+    <string name="btn_verify">Verify Emergency</string>
+    <string name="btn_reject">Reject Report</string>
+    <string name="btn_assign_officer">Assign Officer</string>
+    <string name="dialog_reject_title">Reject Emergency Report</string>
+    <string name="dialog_reject_hint">Enter specific reason for rejection (e.g. Duplicate report, false alarm)...</string>
+
+    <!-- Officer Management & Profile -->
+    <string name="officers_title">Officer Directory</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_age">Age</string>
+    <string name="label_department">Department</string>
+    <string name="label_designation">Designation</string>
+    <string name="label_employee_id">Employee ID</string>
+    <string name="label_experience">Experience</string>
+    <string name="label_availability">Availability</string>
+    <string name="btn_start_response">Start Response</string>
+    <string name="btn_update_progress">Update Progress</string>
+    <string name="btn_mark_completed">Mark as Completed</string>
+    <string name="btn_accept_task">Accept Assignment</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_my_reports">My Reports</string>
+    <string name="nav_profile">Profile</string>
+</resources>

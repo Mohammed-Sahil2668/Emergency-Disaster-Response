@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EmergencyResponse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/navy_primary</item>
+        <item name="colorPrimaryVariant">@color/navy_secondary</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/emergency_red</item>
+        <item name="colorSecondaryVariant">@color/emergency_red_dark</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        
+        <!-- Status bar and navigation bar color. -->
+        <item name="android:statusBarColor">@color/navy_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/navy_primary</item>
+
+        <!-- Background and surface. -->
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorError">@color/emergency_red</item>
+    </style>
+
+    <!-- Custom Button Styles -->
+    <style name="Widget.EmergencyResponse.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/navy_primary</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="cornerRadius">@dimen/corner_small</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.EmergencyResponse.Button.Emergency" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/emergency_red</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="cornerRadius">@dimen/corner_small</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.EmergencyResponse.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/navy_primary</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="android:textColor">@color/navy_primary</item>
+        <item name="cornerRadius">@dimen/corner_small</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.EmergencyResponse.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/corner_medium</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/bg_surface</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="Widget.EmergencyResponse.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/navy_primary</item>
+        <item name="itemIconTint">@color/bottom_nav_colors</item>
+        <item name="itemTextColor">@color/bottom_nav_colors</item>
+        <item name="elevation">8dp</item>
+    </style>
+</resources>

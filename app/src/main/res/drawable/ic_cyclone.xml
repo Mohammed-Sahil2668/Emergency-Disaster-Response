@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Cyclone / Hurricane spiral -->
+    <path
+        android:fillColor="@color/cat_cyclone"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12c0,3.12 1.44,5.9 3.69,7.74l1.45,-1.45C5.46,16.81 4,14.58 4,12c0,-4.41 3.59,-8 8,-8 1.95,0 3.73,0.7 5.12,1.88l1.45,-1.45C16.82,2.94 14.53,2 12,2zm7.69,3.74l-1.45,1.45C19.54,8.68 20,10.28 20,12c0,4.41 -3.59,8 -8,8 -1.95,0 -3.73,-0.7 -5.12,-1.88l-1.45,1.45C7.18,21.06 9.47,22 12,22c5.52,0 10,-4.48 10,-10 0,-3.12 -1.44,-5.9 -3.69,-7.74zM12,8c-2.21,0 -4,1.79 -4,4s1.79,4 4,4 4,-1.79 4,-4 -1.79,-4 -4,-4z" />
+</vector>

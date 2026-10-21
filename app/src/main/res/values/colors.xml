@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Emergency Response Colors -->
+    <color name="navy_primary">#0B192C</color>
+    <color name="navy_secondary">#1E3E62</color>
+    <color name="navy_surface">#162A45</color>
+    <color name="navy_light">#264653</color>
+
+    <!-- Emergency Red Highlights -->
+    <color name="emergency_red">#D90429</color>
+    <color name="emergency_red_dark">#9A031E</color>
+    <color name="emergency_red_light">#FFE5E7</color>
+    <color name="emergency_red_glow">#40D90429</color>
+
+    <!-- Status Badges -->
+    <color name="status_reported">#F59E0B</color>
+    <color name="status_reported_bg">#FEF3C7</color>
+    <color name="status_verified">#2563EB</color>
+    <color name="status_verified_bg">#DBEAFE</color>
+    <color name="status_assigned">#7C3AED</color>
+    <color name="status_assigned_bg">#EDE9FE</color>
+    <color name="status_responding">#DC2626</color>
+    <color name="status_responding_bg">#FEE2E2</color>
+    <color name="status_resolved">#059669</color>
+    <color name="status_resolved_bg">#D1FAE5</color>
+
+    <!-- Weather & Alert Accents -->
+    <color name="weather_card_bg">#1E3A5F</color>
+    <color name="alert_amber">#D97706</color>
+    <color name="alert_amber_bg">#FFFBEB</color>
+
+    <!-- UI Backgrounds and Surfaces -->
+    <color name="bg_light">#F8FAFC</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="divider_color">#E5E7EB</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_white_secondary">#CBD5E1</color>
+
+    <!-- Category Accent Colors -->
+    <color name="cat_flood">#0284C7</color>
+    <color name="cat_flood_bg">#E0F2FE</color>
+    <color name="cat_cyclone">#4F46E5</color>
+    <color name="cat_cyclone_bg">#EEF2FF</color>
+    <color name="cat_heavy_rainfall">#0D9488</color>
+    <color name="cat_heavy_rainfall_bg">#CCFBF1</color>
+    <color name="cat_landslide">#B45309</color>
+    <color name="cat_landslide_bg">#FEF3C7</color>
+    <color name="cat_earthquake">#C2410C</color>
+    <color name="cat_earthquake_bg">#FFEDD5</color>
+    <color name="cat_road_accident">#EA580C</color>
+    <color name="cat_road_accident_bg">#FFEDD5</color>
+    <color name="cat_fire">#DC2626</color>
+    <color name="cat_fire_bg">#FEE2E2</color>
+    <color name="cat_medical">#BE123C</color>
+    <color name="cat_medical_bg">#FFE4E6</color>
+    <color name="cat_other">#4B5563</color>
+    <color name="cat_other_bg">#F3F4F6</color>
+
+    <!-- Rejected Status -->
+    <color name="status_rejected">#E11D48</color>
+    <color name="status_rejected_bg">#FFE4E6</color>
+
+    <!-- Role Selection Accents -->
+    <color name="accent_blue">#0284C7</color>
+    <color name="accent_blue_light">#E0F2FE</color>
+    <color name="role_citizen_tint">#2563EB</color>
+    <color name="role_authority_tint">#7C3AED</color>
+    <color name="role_officer_tint">#059669</color>
+    <color name="role_selected_bg">#EFF6FF</color>
+    <color name="role_selected_stroke">#2563EB</color>
+
+    <!-- Gender Indicators -->
+    <color name="gender_male">#2563EB</color>
+    <color name="gender_female">#EC4899</color>
+    <color name="gender_other">#8B5CF6</color>
+
+    <!-- Officer Availability Status -->
+    <color name="officer_available">#10B981</color>
+    <color name="officer_available_bg">#D1FAE5</color>
+    <color name="officer_on_duty">#F59E0B</color>
+    <color name="officer_on_duty_bg">#FEF3C7</color>
+    <color name="officer_off_duty">#6B7280</color>
+    <color name="officer_off_duty_bg">#F3F4F6</color>
+</resources>

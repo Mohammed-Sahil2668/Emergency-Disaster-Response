@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Water wave representing Flood -->
+    <path
+        android:fillColor="@color/cat_flood"
+        android:pathData="M12,2c-4,4.5 -8,8.5 -8,13 0,4.4 3.6,8 8,8s8,-3.6 8,-8c0,-4.5 -4,-8.5 -8,-13zm0,19c-3.3,0 -6,-2.7 -6,-6 0,-3.1 3,-6.4 6,-10 3,3.6 6,6.9 6,10 0,3.3 -2.7,6 -6,6z" />
+    <path
+        android:fillColor="@color/cat_flood"
+        android:pathData="M3,18c1.5,-1 3.5,-1 5,0 1.5,1 3.5,1 5,0 1.5,-1 3.5,-1 5,0 1.5,1 3.5,1 5,0v2c-2,1 -4,1 -6,0 -1.5,-1 -3.5,-1 -5,0 -1.5,1 -3.5,1 -5,0 -1.5,-1 -3.5,-1 -4,0v-2z" />
+</vector>

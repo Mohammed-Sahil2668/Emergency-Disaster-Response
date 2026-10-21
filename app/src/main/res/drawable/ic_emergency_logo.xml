@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer Shield Background -->
+    <path
+        android:fillColor="@color/navy_secondary"
+        android:pathData="M48,8L16,22v26c0,21.8 13.6,42.2 32,48c18.4,-5.8 32,-26.2 32,-48V22L48,8z" />
+    <!-- Inner Shield Accent -->
+    <path
+        android:fillColor="@color/navy_primary"
+        android:pathData="M48,14L22,25.4v22.6c0,18.8 11.2,36.5 26,41.7c14.8,-5.2 26,-22.9 26,-41.7V25.4L48,14z" />
+    <!-- Emergency Red Cross Center -->
+    <path
+        android:fillColor="@color/emergency_red"
+        android:pathData="M44,30h8v12h12v8h-12v12h-8v-12h-12v-8h12z" />
+    <!-- Pulse Line -->
+    <path
+        android:strokeColor="@color/text_white"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M28,49h8l4,-8l8,16l6,-12l4,4h14" />
+</vector>
